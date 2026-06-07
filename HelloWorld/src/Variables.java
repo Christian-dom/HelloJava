@@ -18,10 +18,20 @@ public class Variables {
             System.out.println("You are a child");
         }
 
-        if (isDeveloper == true) {
+        if (isDeveloper) {
             System.out.println("You are a developer");
         } else {
             System.out.println("You are not a developer");
+        }
+
+        for (int i = 0; i < age; i++) {
+            System.out.println("You are " + (i+1) + " year old in " + (i + 1999));
+        }
+
+        int i = 0;
+        while (i < age) {
+            System.out.println("You are " + (i+1) + " year old in " + (i + 1999));
+            i++;
         }
     }
 }
