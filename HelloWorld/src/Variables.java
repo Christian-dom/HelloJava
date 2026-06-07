@@ -11,5 +11,17 @@ public class Variables {
         System.out.println(battery);
         System.out.println(isDeveloper);
         System.out.println(myClass);
+
+        if (age > 18) {
+            System.out.println("You are an adult");
+        } else {
+            System.out.println("You are a child");
+        }
+
+        if (isDeveloper == true) {
+            System.out.println("You are a developer");
+        } else {
+            System.out.println("You are not a developer");
+        }
     }
 }
