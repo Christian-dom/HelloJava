@@ -1,0 +1,32 @@
+package oop;
+
+public abstract class User {
+    private String name, email;
+
+    public User(String name, String email) {
+        this.name = name;
+        this.email = email;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public String getEmail() {
+        return this.email;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public abstract String getRole();
+
+    public void displayInfo() {
+        System.out.println("Name: " + this.name + "; Email: " + this.email + "; Role: " + this.getRole());
+    }
+}

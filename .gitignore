@@ -25,3 +25,6 @@ replay_pid*
 
 # Ignore Idea
 .idea
+
+# Ignore out folder
+out/
